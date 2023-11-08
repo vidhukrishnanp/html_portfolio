@@ -1,10 +1,10 @@
 
 
 var randomNumber1 =Math.floor(Math.random()*6)+1;
-var imageNo="./images/dice"+randomNumber1+".png";
+var imageNo="./dice"+randomNumber1+".png";
 
 var randomNumber2 =Math.floor(Math.random()*6)+1;
-var imageNo2="./images/dice"+randomNumber2+".png";
+var imageNo2="./dice"+randomNumber2+".png";
   
 if (randomNumber1>randomNumber2)
 {
