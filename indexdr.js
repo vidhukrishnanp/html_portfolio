@@ -23,37 +23,37 @@ function makeSound(key){
     
     switch (key) {
         case "w":
-            var audio = new Audio('./sounds/Chendaa.mp3');
+            var audio = new Audio('./Chendaa.mp3');
             audio.play();
         break;
 
         case "a":
-            var audio = new Audio('./sounds/thavil.mp3');
+            var audio = new Audio('./thavil.mp3');
             audio.play();
         break;
 
         case "s":
-            var audio = new Audio('./sounds/mridangam.mp3');
+            var audio = new Audio('./mridangam.mp3');
             audio.play();
         break;
 
         case "d":
-            var audio = new Audio('./sounds/tabla.mp3');
+            var audio = new Audio('./tabla.mp3');
             audio.play();
         break;
 
         case "j":
-            var audio = new Audio('./sounds/tom-1.mp3');
+            var audio = new Audio('./tom-1.mp3');
             audio.play();
         break;
 
         case "k":
-            var audio = new Audio('./sounds/tom-4.mp3');
+            var audio = new Audio('./tom-4.mp3');
             audio.play();
         break;
 
         case "l":
-            var audio = new Audio('./sounds/crash.mp3');
+            var audio = new Audio('./crash.mp3');
             audio.play();
         break;
     
