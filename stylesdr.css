@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=1060&t=st=1699520768~exp=1699521368~hmac=6b8eb8fca956e25391ee25c46dde2ea88e8a400706ddf63f605294a043e70ebf");
+}
+
+h1 {
+  font-size: 5rem;
+  color: #000000;
+  font-family: Courier, monospace;
+  text-shadow: 2px 0 #f6f6f6;
+  background: linear-gradient(to right, #9cbbc3, #2007ff); /* Gradient background */
+  display: inline-block;
+  padding: 10px; /* Add padding for a bit of space */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background 0.5s ease;
+
+  background: linear-gradient(to right, #efece9, #646052); /* Smooth transition on hover */
+
+}
+
+h1:hover {
+  background: linear-gradient(to right, #4a4843, #c3bbb0); /* Gradient change on hover */
+  color: #fff; /* Text color change on hover */
+  text-shadow: 4px 0 #020202; /* Adjust text shadow on hover */
+}
+
+
+footer {
+  color: #000000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.w {
+  background-image: url("https://t4.ftcdn.net/jpg/02/20/27/65/240_F_220276567_z2TLqYcTkspfNhs9Fpd9BK6Nd6ZvOZuD.jpg");
+}
+
+
+.a {
+     background-image: url("https://t3.ftcdn.net/jpg/05/90/84/22/240_F_590842252_yZODmgx8VK4XUm3oiqaseUiI3f94GsjN.jpg");
+}
+
+.s {
+     background-image: url("https://www.india-instruments.com/assets/images/f/plm_mridangam4-1d40f07f.jpg");
+}
+
+.d {
+  background-image: url("https://www.india-instruments.com/assets/images/f/nbb_prem_1-f1b2a0bf.jpg");
+}
+.j {
+     background-image :url("./images/tom1.png");
+}
+
+.k {
+  background-image :url("./images/tom4.png");
+}
+
+
+.l {
+  background-image :url("./images/crash.png");
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 3px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #167ea7;
+  text-shadow: 3px 0 #000000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, color 0.3s ease;
+
+  /* Gradient background */
+  /*background: linear-gradient(to right, #ff8c00, #ffc107);*/
+}
+
+.drum:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+  color: #fff; /* Text color change on hover */
+}
+
+
